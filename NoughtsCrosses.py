@@ -112,7 +112,6 @@ while start_game:
             else:
                 print("You can't go there! Choose a position between 1 and 9.")
                 
-                
         if win_check(board, player_1):
             clear_output()
             display_board(board)
@@ -135,7 +134,6 @@ while start_game:
                 start_game = False
                 break
 
-                
         # Player 2 Turn
         clear_output()
         print("Player 2, your turn!")
@@ -151,7 +149,6 @@ while start_game:
             else:
                 print("You can't go there! Choose a position between 1 and 9.")
 
-   
         if win_check(board, player_2):
             clear_output()
             display_board(board)            
