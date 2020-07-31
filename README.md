@@ -2,24 +2,27 @@
 Repository for a game of the classic, Noughts and Crosses, created with Python.
 
 ## Table of Contents
-* General Information
-* Technologies
-* Setup
+* [Introduction](https://github.com/AoifeFlanagan/NoughtsCrosses#Introduction)
+* [Features](https://github.com/AoifeFlanagan/NoughtsCrosses#Features)
+* [Modules](https://github.com/AoifeFlanagan/NoughtsCrosses#Modules)
+* [Interactive Development Environment (IDE)](https://github.com/AoifeFlanagan/NoughtsCrosses#Interactive-Development-Environment-(IDE))
 
-## General Information
-This project was set by Udemy's 2020 Complete Python Bootcamp: From Zero to Hero in Python. The objective of this milestone project was to create a noughts and crosses program allowing two players, sitting at the same computer to play against eachother. </br>
+## Introduction
+The objective of this project was to create an interactive, Noughts and Crosses program for two players.
 
-Further requirements comprised:
-* The noughts and crosses board should be printed out every time a player makes a move. The board should also be reset if the player decides to replay.
-* Ability of the progam to accept input of the player position and then place the relevant symbol on the board if that space is free.
-* Ability of the program to check if it is a tie game or to congratulate the winning player.
+## Features
+* A user welcome message.
+* Easy to follow instructions for users.
+* Player 1 chooses if they would like to be 'X' or 'O', respective markers are then mapped to each player. Players can enter upper and lower case values of 'X' and 'O', with invalid input 
+* The program calls each player on their turn and allows them to input a position value between 1 and 9. If the space on the board is occupied, the player is prompted to enter a value again with infinite tries until they enter a valid input.  
+* If the position chosen is a space that does not exist in the range of the board i.e between 1 and 9, the player is asked again until valid input is provided.
+* The program checks and prints whether the game is a tie or if a player has won, in which case the winner is congratulated.
+* The winning player is asked if they would like to play again. Players can enter upper and lower cases of 'Yes' and 'No'. If 'Yes' is selected, the board is reset to empty and the game continues as per.
 
-## Technologies
+## Modules
+* Built-in, clear_output functionality from IPython.display.
+
+## Interactive Development Environment (IDE)
 
 ### **Jupyter notebook**
-
-The version of the notebook server used: 6.0.3</br>
-The server was run on this version of Python: Python 3.7.6
-
-## Setup 
-Run this project's code in a Jupyter notebook. To do so, install Anaconda Navigator and launch Jupyter.
+The notebook server was run on Python version 3.7.6
