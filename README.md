@@ -13,7 +13,7 @@ The objective of this project was to create an interactive, Noughts and Crosses 
 ## Features
 * A user welcome message.
 * Easy to follow instructions for users.
-* Player 1 chooses if they would like to be 'X' or 'O', respective markers are then mapped to each player. Players can enter upper and lower case values of 'X' and 'O', with invalid input 
+* Player 1 chooses if they would like to be 'X' or 'O', respective markers are then mapped to each player. Players can enter upper and lower case values of 'X' and 'O'. If the input is invalid, the player is prompted to enter a value again with infinite tries until they enter acceptable input.
 * The program calls each player on their turn and allows them to input a position value between 1 and 9. If the space on the board is occupied, the player is prompted to enter a value again with infinite tries until they enter a valid input.  
 * If the position chosen is a space that does not exist in the range of the board i.e between 1 and 9, the player is asked again until valid input is provided.
 * The program checks and prints whether the game is a tie or if a player has won, in which case the winner is congratulated.
