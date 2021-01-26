@@ -5,7 +5,7 @@ Repository for a game of the classic, Noughts and Crosses, created with Python.
 * [Introduction](https://github.com/AoifeFlanagan/NoughtsCrosses#Introduction)
 * [Features](https://github.com/AoifeFlanagan/NoughtsCrosses#Features)
 * [Modules](https://github.com/AoifeFlanagan/NoughtsCrosses#Modules)
-* [Recommended Interactive Development Environment (IDE)](https://github.com/AoifeFlanagan/NoughtsCrosses#interactive-development-environment-ide)
+* [Recommended Interactive Development Environment (IDE)](https://github.com/AoifeFlanagan/NoughtsCrosses#recommended-interactive-development-environment-ide)
 
 ## Introduction
 The objective of this project was to create an interactive, Noughts and Crosses program for two players.
